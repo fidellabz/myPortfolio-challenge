@@ -186,27 +186,6 @@ div.plus{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 13px 8px -10px;
 }
 
-
-/* 
-.service-icon{
-    width: 100px;
-    height: 100px;
-    box-shadow: 0 0 0 8px #0078ff;
-    font-size:34px;
-    position: relative;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.service-icon:hover{
-    box-shadow: 0 0 0 10px #0077ff3c;
-}
-.card{
-    box-shadow: 1px 1px 5px  #ababab54;
-    border-color: transparent;
-}^end service */
-
-
 .contact-icon{
     color: #000;
 }
@@ -246,3 +225,71 @@ div.plus{
     margin-left: -20px
 }
 
+/*------/ Socials /------*/
+
+.socials {
+    padding: 1.5rem 0;
+  }
+  
+  .socials ul li {
+    display: inline-block;
+  }
+  
+  .socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+  }
+  
+  .socials .ico-circle:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+  
+  /*------/ Ul resect /------*/
+  
+  .ul-resect,
+  .socials ul,
+  .list-ico,
+  .blog-wrapper .post-meta ul,
+  .box-comments .list-comments,
+  .widget-sidebar .list-sidebar,
+  .widget-tags ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .list-ico {
+    line-height: 2;
+  }
+  
+  .list-ico span {
+    color: #0078ff;
+    margin-right: 10px;
+  }
+  
+  /*------/ Ico Circle /------*/
+  
+  .ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+  }
+
+  a{
+    text-decoration: none;
+  }
