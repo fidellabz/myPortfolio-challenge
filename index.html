@@ -194,22 +194,24 @@
         <!-- 1st tag -->
         <div class="col-md-4">
           <div class="cardv position-relative">
+            <a href="https://fidellabz.github.io/finsweet-task/">
             <div class="img-card" data-bs-toggle="modal" data-bs-target="#modal-one">
               <img src="./images/finsweet.png" class="w-100" alt="" />
             </div>
+          </a>
             <div class="content-card bg-white text-black p-4">
               <div class="row">
                 <div class="col-ms-8">
                   <h2 class="w-title fs-6">Get your vehicle service done online at one place</h2>
                   <div class="d-flex">
-                    <span class="w-ctegory text-primary">Finsweet</span>
+                    <span class="w-ctegory text-primary"><a href="https://fidellabz.github.io/finsweet-task/">Finsweet</a></span>
                     <span class="d-flex ms-2 w-date text-black">/ Nov. 2023</span>
                   </div>
                 </div>
                 <div class="col-ms-4">
                   <div
                     class="plus icon me-3 mb-3 bottom-0 end-0 d-flex position-absolute d-flex align-items-center justify-content-center">
-                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                    <!-- <a href="#"><i class="fa-solid fa-plus"></i></a> -->
                   </div>
                 </div>
               </div>
@@ -219,23 +221,23 @@
         <!-- 2nd tag -->
         <div class="col-md-4">
           <div class="cardv position-relative">
+            <a href="https://fidellabz.github.io/ottafood">
             <div class="img-card" data-bs-toggle="modal" data-bs-target="#modal-two">
               <img src="./images/ottafood.png" class="w-100" alt=" chair , table and white wall" />
             </div>
+          </a>
             <div class="content-card bg-white text-black p-4">
               <div class="row">
                 <div class="col-ms-8">
                   <h2 class="w-title fs-6">Every bite is a tantalizing journey at OttaFood</h2>
                   <div class="d-flex">
-                    <span class="w-ctegory text-primary">OttaFood</span>
+                    <span class="w-ctegory text-primary"><a href="https://fidellabz.github.io/ottafood">OttaFood</a></span>
                     <span class="d-flex ms-2 w-date text-black">/ Nov. 2023</span>
                   </div>
                 </div>
                 <div class="col-ms-4">
                   <div
                     class="plus icon me-3 mb-3 bottom-0 end-0 d-flex position-absolute d-flex align-items-center justify-content-center">
-                    <a href="#">
-                      <i class="fa-solid fa-plus"></i></a>
                   </div>
                 </div>
               </div>
@@ -246,23 +248,25 @@
         <!-- 3rd tag -->
         <div class="col-md-4">
           <div class="cardv position-relative">
+            <a href="https://stocki.vercel.app" alt="stocki-app">
             <div class="img-card" data-bs-toggle="modal" data-bs-target="#modal-three">
               <img src="./images/stocki-app.png" class="w-100"
                 alt="backgroung laptop arms for male person ,calculator and newspaper " />
             </div>
+          </a>
             <div class="content-card bg-white text-black p-4">
               <div class="row">
                 <div class="col-ms-8">
                   <h2 class="w-title fs-6">Streamlined stock control and optimized inventory management system</h2>
                   <div class="d-flex">
-                    <span class="w-ctegory text-primary">Stocki App</span>
+                    <span class="w-ctegory text-primary"><a href="https://stocki.vercel.app">Stocki App</a></span>
                     <span class="d-flex ms-2 w-date text-black">/ Dec. 2023</span>
                   </div>
                 </div>
                 <div class="col-ms-4">
                   <div
                     class="plus icon me-3 mb-3 bottom-0 end-0 d-flex position-absolute d-flex align-items-center justify-content-center">
-                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                    <!-- <a href="#"><i class="fa-solid fa-plus"></i></a> -->
                   </div>
                 </div>
               </div>
@@ -284,20 +288,24 @@
           <div class="col-md-6">
             <h2 class="about-me mb-5 text-capitalize">send a message</h2>
 
-            <form class="text-center" method="post" action="./script/contact.php">
-              <input class="form-control p-2 mb-3 rounded-0" type="text" name="name" placeholder="Your Name" required />
-              <input class="form-control p-2 mb-3 rounded-0" type="email" name="email" placeholder="Your Email"
+            <form id="form" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="6713f7c5-9b6a-476a-ba99-7b70fed466bc">
+              <input class="form-control p-2 ps-4 mb-3 rounded-4 shadow-md" type="text" name="name" placeholder="Your Name" required />
+              <input class="form-control p-2 ps-4 mb-3 rounded-4 shadow-md" type="email" name="email" placeholder="Your Email"
                 required />
-              <input class="form-control p-2 mb-3 rounded-0" type="text" name="subject" placeholder="Subject"
+              <input class="form-control p-2 ps-4 mb-3 rounded-4 shadow-md" type="text" name="subject" placeholder="Subject"
                 required />
-              <textarea class="form-control p-2 mb-3 rounded-0" aria-describedby="emailHelp" name="message"
+              <textarea class="form-control p-2 ps-4 mb-3 rounded-4 shadow-md" aria-describedby="emailHelp" name="message"
                 placeholder="Message" cols="30" rows="5"></textarea>
-              <button class="mt-3 btn rounded-5 btn-primary" type="submit"
-                style="padding: 0.7rem 1.9rem; font-size: 1.2rem">
+              <button class="mt-2 btn rounded-4 btn-primary" type="submit"
+                style="padding: 0.5rem 1.9rem; font-size: 1.1rem">
                 Send Message
               </button>
+              <p class="fs-3 text-base text-left text-gray-500" id="result"></p>
             </form>
+            
           </div>
+     
           <div class="col-md-6 mt-5">
             <h2 class="about-me mb-5 text-capitalize">🌐 Let's Connect</h2>
 
@@ -318,7 +326,7 @@
               </li>
               <li>
                 <i class="fa-regular fa-envelope text-primary pe-3"></i>
-                <a href="mailto:contact@example.com">fidelgeep@gmail.com</a>
+                <a href="mailto:fidelgeep@gmail.com">fidelgeep@gmail.com</a>
               </li>
             </ul>
            
@@ -349,6 +357,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <script src="script/app.js"></script>
 </body>
 
 </html>
